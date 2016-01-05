@@ -1,0 +1,14 @@
+
+sc_uint<{{ retwidth }}> function_{{ name }}_at_line_{{ lineno }}(
+{%- for argument in arguments %}
+{{ argument }}
+{%- endfor %}
+) {
+sc_uint<{{ retwidth }}> {{ name }};
+
+{%- for statement in statements %}
+{{ statement }}
+{%- endfor %}
+
+return {{ name }};
+}

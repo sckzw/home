@@ -1,0 +1,1 @@
+sc_{% if not signed %}u{% endif %}int<32> {{ name }};

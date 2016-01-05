@@ -1,0 +1,1 @@
+function_{{ name }}_at_line_{{ lineno }}( {% for arg in args %}{{ arg }}{% if loop.index < len_args %}, {% endif %}{% endfor %} )

@@ -1,0 +1,5 @@
+{% for cond in condlist %}
+{% if cond != 'default' %}case {{ cond }}:{% else %}default:{% endif %}
+{% endfor %}
+    {{ statement }}
+    break;

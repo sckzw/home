@@ -1,0 +1,5 @@
+{% if width != '' %}
+sc_{% if big %}big{% endif %}{% if not signed %}u{% endif %}int<{{ width }}> {{ name }} = {{ value }}
+{% else %}
+std:string {{ name }} = {{ value }}
+{% endif %}

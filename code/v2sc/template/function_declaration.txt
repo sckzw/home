@@ -1,0 +1,5 @@
+sc_uint<{{ retwidth }}> function_{{ name }}_at_line_{{ lineno }}(
+{%- for argument in arguments %}
+{{ argument }}
+{%- endfor %}
+);

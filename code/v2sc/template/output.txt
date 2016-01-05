@@ -1,0 +1,1 @@
+sc_out< sc_{% if big %}big{% endif %}{% if not signed %}u{% endif %}int<{{ width }}> > {{ name }};

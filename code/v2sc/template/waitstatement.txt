@@ -1,0 +1,2 @@
+// TODO: Unsupported feature
+wait({{ cond }}){% if statement != '' %} {{ statement }}{% else %};{% endif %}

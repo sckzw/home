@@ -1,0 +1,6 @@
+// TODO: casex statement is not supported
+switch ( {{ comp }} ) {
+{%- for case in caselist %}
+{{ case }}
+{%- endfor %}
+}

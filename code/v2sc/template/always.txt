@@ -1,0 +1,4 @@
+
+void always_at_line_{{ lineno }}() {
+    {{ statement }}
+}

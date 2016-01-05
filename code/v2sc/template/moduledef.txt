@@ -1,0 +1,12 @@
+template< {% for parameter in parameters %}{%if parameter != '' %}{{ parameter }}, {% endif %}{% endfor %} >
+SC_MODULE( {{ modulename }} ) {
+{% if portlist != '' %}{{ portlist }}{% endif %}
+{% for item in items %}{{ item }}
+{% endfor %}
+
+    {% for declaration in declarationlist %}{{ declaration }}{% endfor %}
+
+    SC_CTOR( {{ modulename }} ) {
+    {% for process in processlist %}{{ process }}{% endfor %}
+    }
+};
