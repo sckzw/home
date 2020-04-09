@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/shuichi/code/work/eda/systemc/emacs",
+  "command": "/usr/bin/c++.exe    -I/usr/local/systemc/include    -o CMakeFiles/systemc.dir/systemc.cpp.o -c /home/shuichi/code/work/eda/systemc/emacs/systemc.cpp",
+  "file": "/home/shuichi/code/work/eda/systemc/emacs/systemc.cpp"
+}
+]
